@@ -1,3 +1,7 @@
+h1 {
+    font-size: 5em;
+}
+
 #profile_pic {
     height: 12em;
 }
@@ -15,25 +19,14 @@ a {
     color: brown;
 }
 
-.black-text {
+#Summary {
     color:black
 }
 
-.blue-text {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 22px;
+.name {
+    font: 22px georgia, "Times New Roman" ,serif;
     background-color: inherit;
     font-size: 1.25em;
     font-style: italic;
     font-weight: bold;
-}
-
-hr {
-    height: 1px;
-    width: 100%;
-    color: #000040;
-    background-color: #000040;
-    border: 0em;
-    margin-top: 0.3em;
-    margin-bottom: 0.3em;
 }

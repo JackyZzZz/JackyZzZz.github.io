@@ -1,3 +1,7 @@
+h1 {
+    font-size: 5em;
+}
+
 #profile_pic {
     height: 12em;
 }
@@ -15,7 +19,7 @@ a {
     color: brown;
 }
 
-.black-text {
+#Summary {
     color:black
 }
 
