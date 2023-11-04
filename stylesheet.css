@@ -74,7 +74,9 @@ a:hover {
   text-decoration: none;
 }
 
-body,
+body {
+  background-color: #d1e4dd; /* Light green background */
+}
 td,
 th,
 tr,
@@ -131,6 +133,6 @@ span.highlight {
 }
 
 .dark-mode {
-  background-color: #121212; /* Dark background */
+  background-color: #28303d; /* Dark background */
   color: #ffffff; /* Light text */
 }
