@@ -136,3 +136,8 @@ span.highlight {
   background-color: #28303d; /* Dark background */
   color: #ffffff; /* Light text */
 }
+
+ul li {
+  line-height: 1.5em;
+  margin-bottom: 10px;
+}
