@@ -141,3 +141,10 @@ ul li {
   line-height: 1.5em;
   margin-bottom: 10px;
 }
+
+.highlight-block {
+  background-color: #f0e68c; /* Light yellow background */
+  padding: 10px;
+  border-radius: 5px;
+}
+
