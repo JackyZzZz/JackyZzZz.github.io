@@ -76,7 +76,10 @@ a:hover {
 
 body {
   background-color: #d1e4dd; /* Light green background */
+  display: flex;
 }
+div,
+section,
 td,
 th,
 tr,
@@ -146,5 +149,38 @@ ul li {
   background-color: #f0e68c; /* Light yellow background */
   padding: 10px;
   border-radius: 5px;
+}
+
+.sidebar {
+  width: 200px;
+  position: fixed;
+  left: 40px;
+  background-color: #d1e4dd;
+  padding-top: 20px;
+  box-sizing: border-box;
+  /*border-right: 2px solid #ccc;*/
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  border-bottom: 1px solid #ccc
+}
+
+.sidebar a:hover {
+  background-color: cornflowerblue;
+}
+
+.sidebar a:last-child {
+  border-bottom: none;
+}
+
+.content {
+  margin-left: 220px;
+  padding: 20px;
 }
 
