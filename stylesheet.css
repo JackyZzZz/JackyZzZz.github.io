@@ -77,7 +77,9 @@ a:hover {
 body {
   background-color: #d1e4dd; /* Light green background */
   display: flex;
+  justify-content: center;
 }
+
 div,
 section,
 td,
@@ -154,7 +156,8 @@ ul li {
 .sidebar {
   width: 200px;
   position: fixed;
-  left: 40px;
+  left: 170px;
+  top: 50px;
   background-color: #d1e4dd;
   padding-top: 20px;
   box-sizing: border-box;
@@ -180,7 +183,9 @@ ul li {
 }
 
 .content {
-  margin-left: 220px;
+  /*margin-left: 20px;*/
   padding: 20px;
+  max-width: 800px;
+  box-sizing: border-box;
 }
 
