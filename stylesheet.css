@@ -77,7 +77,9 @@ a:hover {
 body {
   background-color: #d1e4dd; /* Light green background */
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px; /* Add space for the fixed navbar */
 }
 
 div,
@@ -153,39 +155,43 @@ ul li {
   border-radius: 5px;
 }
 
-.sidebar {
-  width: 200px;
-  position: fixed;
-  left: 170px;
-  top: 50px;
+.navbar {
+  display: flex;
+  justify-content: center;
   background-color: #d1e4dd;
-  padding-top: 20px;
+  padding: 20px;
   box-sizing: border-box;
-  /*border-right: 2px solid #ccc;*/
   border: 2px solid #ccc;
   border-radius: 10px;
+  margin-bottom: 20px; /* Add some space below the navbar */
+  width: 100%; /* Make sure it spans the full width */
+  position: fixed; /* Fix it at the top */
+  top: 0;
+  left: 0;
+  z-index: 1000; /* Ensure it stays above other content */
 }
 
-.sidebar a {
-  display: block;
+.navbar a {
+  display: inline-block; /* Ensure links are inline blocks */
   color: black;
   padding: 16px;
   text-decoration: none;
-  border-bottom: 1px solid #ccc
+  border-bottom: none; /* Remove border from links */
+  margin: 0 10px; /* Add some space between links */
 }
 
-.sidebar a:hover {
+.navbar a:hover {
   background-color: cornflowerblue;
 }
 
-.sidebar a:last-child {
-  border-bottom: none;
-}
+/*.navbar a:last-child {*/
+/*  border-bottom: none;*/
+/*}*/
 
 .content {
-  /*margin-left: 20px;*/
-  padding: 20px;
+  width: 100%;
   max-width: 800px;
+  padding: 20px;
   box-sizing: border-box;
 }
 
